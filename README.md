@@ -2,6 +2,18 @@
 本ドキュメントは、乳製品を一切使用せず、コーヒー豆に含まれるタンパク質と脂質を物理・化学的に抽出し、豆のみを原料としたカフェオレを構築する手順である。 This document defines the protocol for creating a "Café au Lait" using only coffee beans as the raw material, by physically and chemically extracting the proteins and lipids inherent in the beans, without the use of any dairy or external plant milks.
 [![CI](https://github.com/Newb-idea/-Coffee-Only-Caf-au-Lait-Full-Stack-Emulsion-via-Green-Coffee-Beans/actions/workflows/blank.yml/badge.svg)](https://github.com/Newb-idea/-Coffee-Only-Caf-au-Lait-Full-Stack-Emulsion-via-Green-Coffee-Beans/actions/workflows/blank.yml)
 
+📝 README追記用：実証ステータス（日本語版）
+【実証レポート / Proof of Concept】
+本プロトコルに記載した「重曹とクエン酸によるpH制御」は、現時点では理論的な最適化案（拡張パス）である。しかし、ベースとなる「コーヒー生豆100%による乳化（エマルジョン）」工程については、既に3回の実機試作（プロトタイプ実行）を完了している。
+結果：乳製品を一切介さず、豆由来の成分のみでカフェオレの質感を構築することに成功した。これは単なる妄想ではなく、3回のデバッグを経て到達した「実証済みの事実」である。
+
+📝 Technical Addendum: Build Status (English)
+[Status: Proof of Concept (PoC) Verified]
+The "pH control via Sodium Bicarbonate and Citric Acid" described in this protocol is currently a theoretical optimization (Expansion Path).
+However, the core process—"100% Green Coffee Bean-derived Emulsification"—has already been successfully executed and verified through three separate prototype builds.
+Result: Successfully achieved a café au lait texture using only bean-derived components, without any dairy intervention. This is not a mere hypothesis; it is a proven physical fact reached after three iterations of debugging.
+
+
 ☕️ 【技術仕様 / Technical Specifications】
 コーヒー豆だけカフェオレ：コーヒー生豆による全成分統合エマルジョン
 "Coffee-Only" Café au Lait: Full-Stack Emulsion via Green Coffee Beans
