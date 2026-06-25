@@ -63,3 +63,23 @@ o	DO NOT consume on an empty stomach. Ensure a food buffer is present in the sto
 This protocol is released into the public domain; no patent will be sought.
 宗教や思想に思考を預けるのではなく、このコーヒー生豆エマルジョンを啜り、自らの脳で真理をコンパイルすることを推奨する。
 Do not outsource your thinking to dogmas or ideologies. Consume this green bean emulsion and compile the truth within your own mind.
+
+
+Patch VIII: 低温管理による生物学的セキュリティパッチ
+Patch VIII: Biological Security Patch via Low-Temperature Management
+4. アルカリ可溶化工程 / Alkaline Solubilization Process
+[REVISION]: [JP] 旧仕様（常温放置）の廃止: これまで「常温で48時間放置」とされていた工程を完全に廃止する。常温環境は雑菌およびカビの爆発的な繁殖（バイオハザード）を招くセキュリティホールである。
+[EN] Deprecation of Room-Temperature Soaking: The previous step specifying "48-hour soaking at room temperature" is strictly deprecated. Room temperature creates a security hole that triggers explosive bacterial and fungal proliferation (biohazard).
+
+[Implementation]: [JP] 低温ランタイムの強制: 重曹を添加した軟水に生豆粉末を投入した後は、必ず「冷蔵（5°C以下）」の環境で48時間静置すること。 低温下でもアルカリ可溶化は緩やかに進行し、かつ有害な微生物の増殖を効果的に抑制（デバッグ）できる。
+[EN] Enforcement of Low-Temperature Runtime: After adding the green bean powder to the soft water with sodium bicarbonate, the mixture MUST be kept in a refrigerated environment (5°C or below) for 48 hours. Alkaline solubilization proceeds moderately even at low temperatures while effectively inhibiting (debugging) the growth of harmful microorganisms.
+
+⚠️ 運用上の注意（追加項目） / Runtime Error Caution (Additional Item)
+生物学的負荷：食中毒リスク / Biological Load: Food Poisoning Risk
+
+原因 / Cause: 加熱焙煎プロセスをスキップした生豆抽出液を常温で長時間放置すると、液中の栄養塩を餌として腐敗菌が急速に増殖する。
+
+対策 / Mitigation: 「常温放置は厳禁」。 浸漬から乳化までの全シーケンスは、冷蔵庫内または冷却条件下で実行されなければならない。もし液体の臭気に異変（酸敗臭や発酵臭）を感じた場合は、直ちに実行を停止し、そのバッチを廃棄（ドロップ）すること。
+
+Failure Mode: Leaving the unroasted green bean extract at room temperature for extended periods allows spoilage bacteria to multiply rapidly. Room-temperature soaking is strictly prohibited. The entire sequence from soaking to emulsification must be executed under refrigerated or cooled conditions. If any anomaly in odor (sour or fermented smell) is detected, terminate execution immediately and discard the batch.
+
